@@ -1,0 +1,19 @@
+
+{
+"_comment": "json project configuration file",
+"prompts" : ["Please enter no: ",
+           "Please enter title: ",
+           "Please enter genre: ",
+           "Please enter author: ",
+           "Please enter price: ",
+           "Please enter publishing date: "],
+  "header" : ["no", "title", "genre", "author", "price", "date"],
+  "col_widths" : [6, 25, 6, 25, 10, 8],
+  "format_specs" : [["DIGIT"],
+                  ["ALL"],
+                  ["ALNUM","-"],
+                  ["ALPHA", " ", "-", "&", ".", "'"],
+                  ["FLOAT"],
+                  ["DIGIT"]]
+}
+

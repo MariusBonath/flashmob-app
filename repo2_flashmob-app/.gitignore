@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Editoren / IDEs
+.idea/
+.vscode/
+
+# Build-Artefakte
+build/
+dist/
+*.egg-info/
+
+# Laufzeit-Daten (werden automatisch erzeugt)
+data/booklist.dat
+*.dat
+
+# OS
+.DS_Store
+Thumbs.db
